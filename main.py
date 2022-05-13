@@ -171,9 +171,9 @@ def binary_map(x):
     elif x=='Day': 
       x=0 
     elif x=='Night': 
-      x==1 
+      x=1 
     elif x=='Day ': 
-      x==0
+      x=0
     return x
 
 def mainn():
