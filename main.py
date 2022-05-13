@@ -169,12 +169,6 @@ def binary_map(x):
       x=74 
     elif x=='Zoo': 
       x=75
-    elif x=='Day': 
-      x=0 
-    elif x=='Night': 
-      x=1 
-    elif x=='Day ': 
-      x=0
     return x
 
 def mainn():
@@ -204,7 +198,7 @@ def mainn():
         st.write("")
         st.write("This is an application to predict charges billed based on few parameters")
         st.write("")
-        src = st.selectbox("Enter your Gender", options=['MGM', 'Pochammaidan', 'Kashibugga', 'WGL BUS STAND',
+        src = st.selectbox("Enter your Source", options=['MGM', 'Pochammaidan', 'Kashibugga', 'WGL BUS STAND',
                                                          'WGL busstand', 'WGL bus stop', 'HNK petrol pump',
                                                          'HNK Petrol pump', 'HNK subedari', 'Fathima', 'K U X Road',
                                                          'Kazipet', 'Adalath', 'Subedari', 'H N K Chowrastha',
@@ -228,7 +222,7 @@ def mainn():
                                                          'Shyampet',
                                                          'JSM', 'Zoo'])
         src = binary_map(src)
-        dest = st.selectbox("Enter your Gender", options=['MGM', 'Pochammaidan', 'Kashibugga', 'WGL BUS STAND',
+        dest = st.selectbox("Enter your Destination", options=['MGM', 'Pochammaidan', 'Kashibugga', 'WGL BUS STAND',
                                                          'WGL busstand', 'WGL bus stop', 'HNK petrol pump',
                                                          'HNK Petrol pump', 'HNK subedari', 'Fathima', 'K U X Road',
                                                          'Kazipet', 'Adalath', 'Subedari', 'H N K Chowrastha',
@@ -252,8 +246,10 @@ def mainn():
                                                          'Greenwood', 'Greenwood ', 'CSR', 'Sathyam convention',
                                                          'Zoo'])
         dest = binary_map(dest)
-        smoke = st.selectbox("Do You Smoke: ", options=['Day', 'Night'])
+        smoke = st.selectbox("Day or Night: ", options=['Day', 'Night'])
         if smoke == 'Day':
+            smoke = 0
+        elif smoke == 'Day ':
             smoke = 0
         elif smoke == 'Night':
             smoke = 1
