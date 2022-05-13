@@ -11,7 +11,12 @@ model = load_model('my_model.h5')
 
 
 def pred(src, dest, dayni):
-    prediction = placed.predict(src, dest, dayni)
+    list_of_columns = ['Source','Destination','Dayornight','Price']
+    input_data=pd.DataFrame(columns=list_of_columns)
+    input_data.at[0,'Source']=src
+    input_data.at[0, 'Destination'] = dest
+    input_data.at[0, 'Dayornight'] = dayni
+    prediction = model.predict(input_data)
     prediction = float((prediction * (500-10)+10))
     return prediction
 
