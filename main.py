@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-PAGE_CONFIG = {"page_title": "Prediction of Medical Charges Billed by Insurance", "page_icon": "icon.png",
+PAGE_CONFIG = {"page_title": "Auto Charges", "page_icon": "icon.png",
                "layout": "centered"}
 st.set_page_config(**PAGE_CONFIG)
 # st.title("Predict Medical charges billed by Insurance ")
@@ -11,7 +11,7 @@ model = load_model('my_model.h5')
 
 
 def pred(src, dest, dayni):
-    list_of_columns = ['Source','Destination','Dayornight','Price']
+    list_of_columns = ['Source','Destination','Dayornight']
     input_data=pd.DataFrame(columns=list_of_columns)
     input_data.at[0,'Source']=src
     input_data.at[0, 'Destination'] = dest
