@@ -17,27 +17,7 @@ def pred(src, dest, dayni):
 
 
 def binary_map(x):
-    return x.map({'MGM': 0, 'Pochammaidan': 1, 'Kashibugga': 2, 'WGL BUS STAND': 3,
-                  'WGL busstand': 4, 'WGL bus stop': 5, 'HNK petrol pump': 6,
-                  'HNK Petrol pump': 7, 'HNK subedari': 8, 'Fathima': 9, 'K U X Road': 10,
-                  'Kazipet': 11, 'Adalath': 12, 'Subedari': 13, 'H N K Chowrastha': 14,
-                  'H N K busstand': 15, 'H N K subedari': 16, 'H N K Asubedari': 17,
-                  'Muluguroad': 18, 'Warangal': 19, 'HNK': 20, 'Warangal frot road': 21,
-                  'Hanamkonda': 22, 'HNK petrolpump': 23, 'Warangal busstand': 24,
-                  'Warangal postoﬃce': 25, 'ku': 26, 'Shyamal gardens': 27, 'Jawaher cross': 28,
-                  'Ku': 29, 'Church ': 30, 'Fatima ': 31, 'Shyamala gardens': 32, 'Deshaipet': 33,
-                  'Market': 34, 'Gorrekunta': 35, 'Narsampet': 36, 'Bollikunta': 37, 'Shambunipet': 38,
-                  'Geesugonda': 39, 'K U X road': 40, 'Madikonda': 41, 'H N K Busstand': 42,
-                  'H N K Head postoﬃc e': 43, 'H N K busdepot': 44, 'Balasamudram': 45,
-                  'WGL chowrastha': 46, 'Karimabad': 47, 'Wardhannapet': 48, 'Panthini': 49,
-                  'Mogilicharla': 50, 'Koreekunta': 51, 'WGL fort road': 52, 'Naidupetrol pump': 53,
-                  'Chinthagattu camp': 54, 'Peddamagadda': 55, 'Parkal': 56, 'Mulugu': 57,
-                  'Mahabubabad': 58, 'Darmaram': 59, 'Vadeepalli': 60, 'Battalabajar': 61,
-                  'Nagamaiah temple': 62, 'Under Bridge': 63, 'Gate': 64, 'Water Tank': 65,
-                  'Greenwood': 66, 'Greenwood ': 67, 'CSR': 68, 'Sathyam convention': 69,
-                  'Alluri Engineering': 70, 'Church': 71, 'Orugallu petrol pump': 72, 'Shyampet': 73,
-                  'JSM': 74, 'Zoo': 75,
-                  'Day': 0, 'Night': 1, 'Day ': 0})
+    return x.map({'MGM': 0, 'Pochammaidan': 1, 'Kashibugga': 2, 'WGL BUS STAND': 3,'WGL busstand': 4, 'WGL bus stop': 5, 'HNK petrol pump': 6,'HNK Petrol pump': 7, 'HNK subedari': 8, 'Fathima': 9, 'K U X Road': 10,'Kazipet': 11, 'Adalath': 12, 'Subedari': 13, 'H N K Chowrastha': 14,'H N K busstand': 15, 'H N K subedari': 16, 'H N K Asubedari': 17,'Muluguroad': 18, 'Warangal': 19, 'HNK': 20, 'Warangal frot road': 21,'Hanamkonda': 22, 'HNK petrolpump': 23, 'Warangal busstand': 24,'Warangal postoﬃce': 25, 'ku': 26, 'Shyamal gardens': 27, 'Jawaher cross': 28,'Ku': 29, 'Church ': 30, 'Fatima ': 31, 'Shyamala gardens': 32, 'Deshaipet': 33,'Market': 34, 'Gorrekunta': 35, 'Narsampet': 36, 'Bollikunta': 37, 'Shambunipet': 38,'Geesugonda': 39, 'K U X road': 40, 'Madikonda': 41, 'H N K Busstand': 42,'H N K Head postoﬃc e': 43, 'H N K busdepot': 44, 'Balasamudram': 45,'WGL chowrastha': 46, 'Karimabad': 47, 'Wardhannapet': 48, 'Panthini': 49,'Mogilicharla': 50, 'Koreekunta': 51, 'WGL fort road': 52, 'Naidupetrol pump': 53,'Chinthagattu camp': 54, 'Peddamagadda': 55, 'Parkal': 56, 'Mulugu': 57,'Mahabubabad': 58, 'Darmaram': 59, 'Vadeepalli': 60, 'Battalabajar': 61,'Nagamaiah temple': 62, 'Under Bridge': 63, 'Gate': 64, 'Water Tank': 65,'Greenwood': 66, 'Greenwood ': 67, 'CSR': 68, 'Sathyam convention': 69,'Alluri Engineering': 70, 'Church': 71, 'Orugallu petrol pump': 72, 'Shyampet': 73,'JSM': 74, 'Zoo': 75,'Day': 0, 'Night': 1, 'Day ': 0})
 
 
 def mainn():
