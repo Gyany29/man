@@ -5,7 +5,7 @@ import pandas as pd
 PAGE_CONFIG = {"page_title": "Auto Charges", "page_icon": "icon.png",
                "layout": "centered"}
 st.set_page_config(**PAGE_CONFIG)
-# st.title("Predict Medical charges billed by Insurance ")
+# st.title("Predict Auto Charges ")
 from keras.models import load_model
 model = load_model('my_model.h5')
 
@@ -196,7 +196,7 @@ def mainn():
     if details == 'Web-App':
         st.markdown(html_temp, unsafe_allow_html=True)
         st.write("")
-        st.write("This is an application to predict charges billed based on few parameters")
+        st.write("This is an application to predict auto charges")
         st.write("")
         src = st.selectbox("Enter your Source", options=['MGM', 'Pochammaidan', 'Kashibugga', 'WGL BUS STAND',
                                                          'WGL busstand', 'WGL bus stop', 'HNK petrol pump',
