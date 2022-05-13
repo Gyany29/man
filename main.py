@@ -12,7 +12,7 @@ model = load_model('my_model.h5')
 
 def pred(src, dest, dayni):
     prediction = model.predict([[src,dest,dayni]])
-    prediction = float((prediction * (500-10)+10))
+    prediction = float(([prediction * (500-10)]+10))
     return prediction
 
 
