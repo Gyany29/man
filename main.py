@@ -260,7 +260,7 @@ def mainn():
         result = ""
         if st.button("Predict"):
             result = pred(src, dest, smoke)
-            st.write("Medical charge billed by insurance is {}".format(result))
+            st.write("Auto charge estimated is {}".format(result))
 
 
 if __name__ == '__main__':
