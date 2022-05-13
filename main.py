@@ -18,7 +18,7 @@ def pred(src, dest, dayni):
     input_data.at[0, 'Dayornight'] = dayni
     prediction = model.predict(input_data)
     prediction = float((prediction * (500-10)+10))
-    return prediction
+    return input_data['Source']
 
 
 def binary_map(x):
