@@ -6,7 +6,8 @@ PAGE_CONFIG = {"page_title": "Prediction of Medical Charges Billed by Insurance"
                "layout": "centered"}
 st.set_page_config(**PAGE_CONFIG)
 # st.title("Predict Medical charges billed by Insurance ")
-placed = pickle.load(open('my_model.h5', 'rb'))
+from keras.models import load_model
+model = load_model('my_model.h5')
 
 
 def pred(src, dest, dayni):
