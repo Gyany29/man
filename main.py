@@ -177,7 +177,7 @@ def mainn():
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <div style="background-color:rgb(108, 207, 133);opacity:0.9;padding:10px;border-radius:10px;font-family: 'Josefin Sans', sans-serif;">
-    <h2 style="color:#fff;text-align:center;">Prediction of Medical Charges billed by Insurance</h2>
+    <h2 style="color:#fff;text-align:center;">Prediction of Auto Charges</h2>
     </div>
     """
 
