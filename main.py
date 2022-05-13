@@ -175,7 +175,7 @@ def binary_map(x):
       x==1 
     elif x=='Day ': 
       x==0
-  return x
+    return x
 
 def mainn():
     html_temp = """
