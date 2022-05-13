@@ -242,19 +242,16 @@ def mainn():
                                                          'Warangal postoﬃce', 'ku', 'Shyamal gardens', 'Jawaher cross',
                                                          'Ku', 'Church ', 'Fatima ', 'Shyamala gardens', 'Deshaipet',
                                                          'Market', 'Gorrekunta', 'Narsampet', 'Bollikunta',
-                                                         'Shambunipet',
-                                                         'Geesugonda', 'K U X road', 'Madikonda', 'H N K Busstand',
+                                                         'Shambunipet','Geesugonda', 'K U X road', 'Madikonda', 'H N K Busstand',
                                                          'H N K Head postoﬃc e', 'H N K busdepot', 'Balasamudram',
                                                          'WGL chowrastha', 'Karimabad', 'Wardhannapet', 'Panthini',
                                                          'Mogilicharla', 'Koreekunta', 'WGL fort road',
-                                                         'Naidupetrol pump',
-                                                         'Chinthagattu camp', 'Peddamagadda', 'Parkal', 'Mulugu',
+                                                         'Naidupetrol pump','Chinthagattu camp', 'Peddamagadda', 'Parkal', 'Mulugu',
                                                          'Mahabubabad', 'Darmaram', 'Vadeepalli', 'Battalabajar',
                                                          'Nagamaiah temple', 'Under Bridge', 'Gate', 'Water Tank',
                                                          'Greenwood', 'Greenwood ', 'CSR', 'Sathyam convention',
                                                          'Alluri Engineering', 'Church', 'Orugallu petrol pump',
-                                                         'Shyampet',
-                                                         'JSM', 'Zoo'])
+                                                         'Shyampet','JSM', 'Zoo'])
         dest = binary_map(dest)
         smoke = st.selectbox("Do You Smoke: ", options=['Day', 'Night'])
         if smoke == 'Day':
