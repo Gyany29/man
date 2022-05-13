@@ -66,7 +66,6 @@ def mainn():
     st.sidebar.write(" ")
     st.sidebar.write(" ")
     st.sidebar.write(" ")
-    st.sidebar.image('ii.png')
     if details == 'Web-App':
         st.markdown(html_temp, unsafe_allow_html=True)
         st.write("")
