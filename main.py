@@ -198,11 +198,7 @@ def mainn():
     <h3 style="color:#fff;text-align:center;">Exploring the Dataset of our Problem Statement:</h3>
     </div>
     """
-    details = st.sidebar.selectbox(label="HOME", options=['Web-App', 'Data'])
-    st.sidebar.write(" ")
-    st.sidebar.write(" ")
-    st.sidebar.write(" ")
-    st.sidebar.write(" ")
+    details = st.sidebar.selectbox(label="HOME", options=['Web-App'])
     if details == 'Web-App':
         st.markdown(html_temp, unsafe_allow_html=True)
         st.write("")
