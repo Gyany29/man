@@ -247,14 +247,14 @@ def mainn():
                                                          'H N K Head postoﬃc e', 'H N K busdepot', 'Balasamudram',
                                                          'WGL chowrastha', 'Karimabad', 'Wardhannapet', 'Panthini',
                                                          'Mogilicharla', 'Koreekunta', 'WGL fort road',
-                                                         'Naidupetrol pump',
+                                                         'Naidupetrol pump','Alluri Engineering', 'Church', 'Orugallu petrol pump',
+                                                         'Shyampet',
+                                                         'JSM', 
                                                          'Chinthagattu camp', 'Peddamagadda', 'Parkal', 'Mulugu',
                                                          'Mahabubabad', 'Darmaram', 'Vadeepalli', 'Battalabajar',
                                                          'Nagamaiah temple', 'Under Bridge', 'Gate', 'Water Tank',
                                                          'Greenwood', 'Greenwood ', 'CSR', 'Sathyam convention',
-                                                         'Alluri Engineering', 'Church', 'Orugallu petrol pump',
-                                                         'Shyampet',
-                                                         'JSM', 'Zoo'])
+                                                         'Zoo'])
         dest = binary_map(dest)
         smoke = st.selectbox("Do You Smoke: ", options=['Day', 'Night'])
         if smoke == 'Day':
