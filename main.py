@@ -17,8 +17,165 @@ def pred(src, dest, dayni):
 
 
 def binary_map(x):
-    return x.map({'MGM': 0, 'Pochammaidan': 1, 'Kashibugga': 2, 'WGL BUS STAND': 3,'WGL busstand': 4, 'WGL bus stop': 5, 'HNK petrol pump': 6,'HNK Petrol pump': 7, 'HNK subedari': 8, 'Fathima': 9, 'K U X Road': 10,'Kazipet': 11, 'Adalath': 12, 'Subedari': 13, 'H N K Chowrastha': 14,'H N K busstand': 15, 'H N K subedari': 16, 'H N K Asubedari': 17,'Muluguroad': 18, 'Warangal': 19, 'HNK': 20, 'Warangal frot road': 21,'Hanamkonda': 22, 'HNK petrolpump': 23, 'Warangal busstand': 24,'Warangal postoﬃce': 25, 'ku': 26, 'Shyamal gardens': 27, 'Jawaher cross': 28,'Ku': 29, 'Church ': 30, 'Fatima ': 31, 'Shyamala gardens': 32, 'Deshaipet': 33,'Market': 34, 'Gorrekunta': 35, 'Narsampet': 36, 'Bollikunta': 37, 'Shambunipet': 38,'Geesugonda': 39, 'K U X road': 40, 'Madikonda': 41, 'H N K Busstand': 42,'H N K Head postoﬃc e': 43, 'H N K busdepot': 44, 'Balasamudram': 45,'WGL chowrastha': 46, 'Karimabad': 47, 'Wardhannapet': 48, 'Panthini': 49,'Mogilicharla': 50, 'Koreekunta': 51, 'WGL fort road': 52, 'Naidupetrol pump': 53,'Chinthagattu camp': 54, 'Peddamagadda': 55, 'Parkal': 56, 'Mulugu': 57,'Mahabubabad': 58, 'Darmaram': 59, 'Vadeepalli': 60, 'Battalabajar': 61,'Nagamaiah temple': 62, 'Under Bridge': 63, 'Gate': 64, 'Water Tank': 65,'Greenwood': 66, 'Greenwood ': 67, 'CSR': 68, 'Sathyam convention': 69,'Alluri Engineering': 70, 'Church': 71, 'Orugallu petrol pump': 72, 'Shyampet': 73,'JSM': 74, 'Zoo': 75,'Day': 0, 'Night': 1, 'Day ': 0})
-
+    if x=='MGM':
+      x=0 
+    elif x=='Pochammaidan': 
+      x=1
+    elif x=='Kashibugga': 
+      x=2 
+    elif x=='WGL BUS STAND': 
+      x=3
+    elif x=='WGL busstand': 
+      x=4
+    elif x=='WGL bus stop': 
+      x=5
+    elif x=='HNK petrol pump': 
+      x=6
+    elif x=='HNK Petrol pump': 
+      x=7 
+    elif x=='HNK subedari': 
+      x=8
+    elif x=='Fathima': 
+      x=9
+    elif x=='K U X Road': 
+      x=10
+    elif x=='Kazipet': 
+      x=11 
+    elif x=='Adalath': 
+      x=12
+    elif x=='Subedari': 
+      x=13
+    elif x=='H N K Chowrastha': 
+      x=14
+    elif x=='H N K busstand': 
+      x=15
+    elif x=='H N K subedari': 
+      x=16
+    elif x=='H N K Asubedari': 
+      x=17
+    elif x=='Muluguroad': 
+      x=18
+    elif x=='Warangal': 
+      x=19
+    elif x=='HNK': 
+      x=20
+    elif x=='Warangal frot road': 
+      x=21
+    elif x=='Hanamkonda': 
+      x=22
+    elif x=='HNK petrolpump': 
+      x=23
+    elif x=='Warangal busstand': 
+      x=24
+    elif x=='Warangal postoﬃce': 
+      x=25 
+    elif x=='ku': 
+      x=26
+    elif x=='Shyamal gardens': 
+      x=27
+    elif x=='Jawaher cross': 
+      x=28
+    elif x=='Ku': 
+      x=29
+    elif x=='Church ': 
+      x=30
+    elif x=='Fatima ': 
+      x=31
+    elif x=='Shyamala gardens': 
+      x=32 
+    elif x=='Deshaipet': 
+      x=33
+    elif x=='Market': 
+      x=34 
+    elif x=='Gorrekunta': 
+      x=35 
+    elif x=='Narsampet': 
+      x=36 
+    elif x=='Bollikunta': 
+      x=37 
+    elif x=='Shambunipet': 
+      x=38
+    elif x=='Geesugonda': 
+      x=39
+    elif x=='K U X road': 
+      x=40
+    elif x=='Madikonda': 
+      x=41
+    elif x=='H N K Busstand': 
+      x=42
+    elif x=='H N K Head postoﬃc e': 
+      x=43
+    elif x=='H N K busdepot': 
+      x=44
+    elif x=='Balasamudram': 
+      x=45
+    elif x=='WGL chowrastha': 
+      x=46
+    elif x=='Karimabad': 
+      x=47
+    elif x=='Wardhannapet': 
+      x=48
+    elif x=='Panthini': 
+      x=49
+    elif x=='Mogilicharla': 
+      x=50 
+    elif x=='Koreekunta': 
+      x=51
+    elif x=='WGL fort road': 
+      x=52 
+    elif x=='Naidupetrol pump': 
+      x=53
+    elif x=='Chinthagattu camp': 
+      x=54
+    elif x=='Peddamagadda': 
+      x=55
+    elif x=='Parkal': 
+      x=56
+    elif x=='Mulugu': 
+      x=57
+    elif x=='Mahabubabad': 
+      x=58
+    elif x=='Darmaram': 
+      x=59
+    elif x=='Vadeepalli': 
+      x=60
+    elif x=='Battalabajar': 
+      x=61
+    elif x=='Nagamaiah temple': 
+      x=62 
+    elif x=='Under Bridge': 
+      x=63
+    elif x=='Gate': 
+      x=64 
+    elif x=='Water Tank': 
+      x=65
+    elif x=='Greenwood': 
+      x=66 
+    elif x=='Greenwood ': 
+      x=67
+    elif x=='CSR': 
+      x=68
+    elif x=='Sathyam convention': 
+      x=69
+    elif x=='Alluri Engineering': 
+      x=70
+    elif x=='Church': 
+      x=71
+    elif x=='Orugallu petrol pump': 
+      x=72
+    elif x=='Shyampet': 
+      x=73
+    elif x=='JSM': 
+      x=74 
+    elif x=='Zoo': 
+      x=75
+    elif x=='Day': 
+      x=0 
+    elif x=='Night': 
+      x==1 
+    elif x=='Day ': 
+      x==0
+  return x;
 
 def mainn():
     html_temp = """
